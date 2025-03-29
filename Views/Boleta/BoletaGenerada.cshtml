@@ -1,0 +1,22 @@
+@model CASA_CAMBIO.Models.ClienteModel
+
+@{
+    ViewData["Title"] = "Boleta Generada";
+}   
+
+<h2>Boleta de Cambio</h2>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Transacción completada</h5>
+        <p><strong>Cliente:</strong> @Model.NombreCompleto</p>
+        <p><strong>DNI:</strong> @Model.DNI</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <hr>
+        <p><strong>Cambio realizado:</strong></p>
+        <p>@Model.Transaccion.Cantidad @Model.Transaccion.MonedaOrigen → 
+           @Model.Transaccion.Resultado.ToString("0.00") @Model.Transaccion.MonedaDestino</p>
+        <p><strong>Tipo de cambio:</strong> 1 @Model.Transaccion.MonedaOrigen = 
+           @Model.Transaccion.TipoCambio.ToString("0.00") @Model.Transaccion.MonedaDestino</p>
+        <p class="text-muted">Fecha: @DateTime.Now.ToString("g")</p>
+    </div>
+</div>

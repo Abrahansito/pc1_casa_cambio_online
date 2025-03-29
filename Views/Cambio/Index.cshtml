@@ -1,0 +1,43 @@
+@model CASA_CAMBIO.Models.CambioModel
+
+@{
+    ViewData["Title"] = "Cambio"; 
+}
+
+<h2>Cambio de Moneda</h2>
+<form asp-action="Calcular" method="post">
+    <div class="form-group">
+        <label asp-for="MonedaOrigen">Moneda Origen:</label>
+        <select asp-for="MonedaOrigen" class="form-control">
+            <option value="">Seleccione...</option>
+            <option value="USD">Dólar Estadounidense (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="PEN">Sol Peruano (PEN)</option>
+        </select>
+        <span asp-validation-for="MonedaOrigen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MonedaDestino">Moneda Destino:</label>
+        <select asp-for="MonedaDestino" class="form-control">
+            <option value="">Seleccione...</option>
+            <option value="USD">Dólar Estadounidense (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="PEN">Sol Peruano (PEN)</option>
+        </select>
+        <span asp-validation-for="MonedaDestino" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cantidad">Cantidad:</label>
+        <input asp-for="Cantidad" class="form-control" step="0.01" min="0.01" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Calcular Cambio</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
