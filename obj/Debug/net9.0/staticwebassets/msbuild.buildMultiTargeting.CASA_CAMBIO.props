@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CASA_CAMBIO.props" />
+</Project>
