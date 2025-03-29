@@ -4,13 +4,21 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CASA_CAMBIO.2mgy32rypu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2mgy32rypu"},{"Name":"integrity","Value":"sha256-muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU="},{"Name":"label","Value":"_content/CASA_CAMBIO/CASA_CAMBIO.bundle.scp.css"}]]]></EndpointProperties>
+<<<<<<< HEAD
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 02:38:53 GMT"}]]]></ResponseHeaders>
+=======
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 04:28:58 GMT"}]]]></ResponseHeaders>
+>>>>>>> 6da20585a576170ca11325bcd0272f9b47161751
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CASA_CAMBIO/CASA_CAMBIO.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CASA_CAMBIO.2mgy32rypu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU="}]]]></EndpointProperties>
+<<<<<<< HEAD
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 02:38:53 GMT"}]]]></ResponseHeaders>
+=======
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022muNm0LHviatan1DasQS9mkto6EncTRDZwt\u002BtSaWJtrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Mar 2025 04:28:58 GMT"}]]]></ResponseHeaders>
+>>>>>>> 6da20585a576170ca11325bcd0272f9b47161751
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CASA_CAMBIO/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
